@@ -1,0 +1,11 @@
+C:\Users\Spartancamo\Documents\GitHub\C-2\Act3\part1\part1\bin\Debug\netcoreapp2.1\part1.deps.json
+C:\Users\Spartancamo\Documents\GitHub\C-2\Act3\part1\part1\bin\Debug\netcoreapp2.1\part1.runtimeconfig.json
+C:\Users\Spartancamo\Documents\GitHub\C-2\Act3\part1\part1\bin\Debug\netcoreapp2.1\part1.runtimeconfig.dev.json
+C:\Users\Spartancamo\Documents\GitHub\C-2\Act3\part1\part1\bin\Debug\netcoreapp2.1\part1.dll
+C:\Users\Spartancamo\Documents\GitHub\C-2\Act3\part1\part1\bin\Debug\netcoreapp2.1\part1.pdb
+C:\Users\Spartancamo\Documents\GitHub\C-2\Act3\part1\part1\obj\Debug\netcoreapp2.1\part1.csprojAssemblyReference.cache
+C:\Users\Spartancamo\Documents\GitHub\C-2\Act3\part1\part1\obj\Debug\netcoreapp2.1\part1.csproj.CoreCompileInputs.cache
+C:\Users\Spartancamo\Documents\GitHub\C-2\Act3\part1\part1\obj\Debug\netcoreapp2.1\part1.AssemblyInfoInputs.cache
+C:\Users\Spartancamo\Documents\GitHub\C-2\Act3\part1\part1\obj\Debug\netcoreapp2.1\part1.AssemblyInfo.cs
+C:\Users\Spartancamo\Documents\GitHub\C-2\Act3\part1\part1\obj\Debug\netcoreapp2.1\part1.dll
+C:\Users\Spartancamo\Documents\GitHub\C-2\Act3\part1\part1\obj\Debug\netcoreapp2.1\part1.pdb
