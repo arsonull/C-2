@@ -1,0 +1,8 @@
+C:\Users\spart\Documents\GCU\C#2\Activity2\ChessBoardConsoleApp\ChessBoardModel\bin\Debug\netstandard1.4\ChessBoardModel.deps.json
+C:\Users\spart\Documents\GCU\C#2\Activity2\ChessBoardConsoleApp\ChessBoardModel\bin\Debug\netstandard1.4\ChessBoardModel.dll
+C:\Users\spart\Documents\GCU\C#2\Activity2\ChessBoardConsoleApp\ChessBoardModel\bin\Debug\netstandard1.4\ChessBoardModel.pdb
+C:\Users\spart\Documents\GCU\C#2\Activity2\ChessBoardConsoleApp\ChessBoardModel\obj\Debug\netstandard1.4\ChessBoardModel.csprojAssemblyReference.cache
+C:\Users\spart\Documents\GCU\C#2\Activity2\ChessBoardConsoleApp\ChessBoardModel\obj\Debug\netstandard1.4\ChessBoardModel.csproj.CoreCompileInputs.cache
+C:\Users\spart\Documents\GCU\C#2\Activity2\ChessBoardConsoleApp\ChessBoardModel\obj\Debug\netstandard1.4\ChessBoardModel.AssemblyInfo.cs
+C:\Users\spart\Documents\GCU\C#2\Activity2\ChessBoardConsoleApp\ChessBoardModel\obj\Debug\netstandard1.4\ChessBoardModel.dll
+C:\Users\spart\Documents\GCU\C#2\Activity2\ChessBoardConsoleApp\ChessBoardModel\obj\Debug\netstandard1.4\ChessBoardModel.pdb
