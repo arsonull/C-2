@@ -1,0 +1,11 @@
+C:\Users\Spartancamo\Documents\GitHub\C-2\Act3\knightTour\knightTour\bin\Debug\netcoreapp2.1\knightTour.deps.json
+C:\Users\Spartancamo\Documents\GitHub\C-2\Act3\knightTour\knightTour\bin\Debug\netcoreapp2.1\knightTour.runtimeconfig.json
+C:\Users\Spartancamo\Documents\GitHub\C-2\Act3\knightTour\knightTour\bin\Debug\netcoreapp2.1\knightTour.runtimeconfig.dev.json
+C:\Users\Spartancamo\Documents\GitHub\C-2\Act3\knightTour\knightTour\bin\Debug\netcoreapp2.1\knightTour.dll
+C:\Users\Spartancamo\Documents\GitHub\C-2\Act3\knightTour\knightTour\bin\Debug\netcoreapp2.1\knightTour.pdb
+C:\Users\Spartancamo\Documents\GitHub\C-2\Act3\knightTour\knightTour\obj\Debug\netcoreapp2.1\knightTour.csprojAssemblyReference.cache
+C:\Users\Spartancamo\Documents\GitHub\C-2\Act3\knightTour\knightTour\obj\Debug\netcoreapp2.1\knightTour.csproj.CoreCompileInputs.cache
+C:\Users\Spartancamo\Documents\GitHub\C-2\Act3\knightTour\knightTour\obj\Debug\netcoreapp2.1\knightTour.AssemblyInfoInputs.cache
+C:\Users\Spartancamo\Documents\GitHub\C-2\Act3\knightTour\knightTour\obj\Debug\netcoreapp2.1\knightTour.AssemblyInfo.cs
+C:\Users\Spartancamo\Documents\GitHub\C-2\Act3\knightTour\knightTour\obj\Debug\netcoreapp2.1\knightTour.dll
+C:\Users\Spartancamo\Documents\GitHub\C-2\Act3\knightTour\knightTour\obj\Debug\netcoreapp2.1\knightTour.pdb
