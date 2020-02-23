@@ -1,0 +1,14 @@
+C:\Users\spart\Documents\GCU\C#2\Milestone\1\MineSweeper\MineSweeper\bin\Debug\MineSweeper.exe.config
+C:\Users\spart\Documents\GCU\C#2\Milestone\1\MineSweeper\MineSweeper\bin\Debug\MineSweeper.exe
+C:\Users\spart\Documents\GCU\C#2\Milestone\1\MineSweeper\MineSweeper\bin\Debug\MineSweeper.pdb
+C:\Users\spart\Documents\GCU\C#2\Milestone\1\MineSweeper\MineSweeper\obj\Debug\MineSweeper.csprojAssemblyReference.cache
+C:\Users\spart\Documents\GCU\C#2\Milestone\1\MineSweeper\MineSweeper\obj\Debug\MineSweeper.csproj.CoreCompileInputs.cache
+C:\Users\spart\Documents\GCU\C#2\Milestone\1\MineSweeper\MineSweeper\obj\Debug\MineSweeper.exe
+C:\Users\spart\Documents\GCU\C#2\Milestone\1\MineSweeper\MineSweeper\obj\Debug\MineSweeper.pdb
+C:\Users\spart\Documents\GCU\C#2\Milestone\2\MineSweeper\MineSweeper\bin\Debug\MineSweeper.exe.config
+C:\Users\spart\Documents\GCU\C#2\Milestone\2\MineSweeper\MineSweeper\bin\Debug\MineSweeper.exe
+C:\Users\spart\Documents\GCU\C#2\Milestone\2\MineSweeper\MineSweeper\bin\Debug\MineSweeper.pdb
+C:\Users\spart\Documents\GCU\C#2\Milestone\2\MineSweeper\MineSweeper\obj\Debug\MineSweeper.csprojAssemblyReference.cache
+C:\Users\spart\Documents\GCU\C#2\Milestone\2\MineSweeper\MineSweeper\obj\Debug\MineSweeper.csproj.CoreCompileInputs.cache
+C:\Users\spart\Documents\GCU\C#2\Milestone\2\MineSweeper\MineSweeper\obj\Debug\MineSweeper.exe
+C:\Users\spart\Documents\GCU\C#2\Milestone\2\MineSweeper\MineSweeper\obj\Debug\MineSweeper.pdb
