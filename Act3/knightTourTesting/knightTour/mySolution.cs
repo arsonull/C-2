@@ -20,20 +20,22 @@ namespace knightTour
             Console.ReadLine();
         }
 
-        static void knightTour (int x, int y)
+        public static void knightTour (int x, int y)
         {
             Cell currentCell = new Cell(x, y);
             game.theGrid[x, y].visited = true;
             game.setOpenNeighbors(currentCell);
             int lowestMoves = 100;
+            Console.Out.WriteLine(currentCell.RowNumber);
             //Find which moves have the lowest moves
-            if (currentCell.RowNumber - 2 >= 0 && currentCell.ColumnNumber - 1 >= 0)
+            if (x - 2 >= 0 && y - 1 >= 0)
             {
                 if (game.theGrid[currentCell.RowNumber - 2, currentCell.ColumnNumber - 1].openNeighbors < lowestMoves) { lowestMoves = game.theGrid[currentCell.RowNumber - 2, currentCell.ColumnNumber - 1].openNeighbors; }
             }
+            Console.Out.WriteLine("First if");
             if (currentCell.RowNumber - 2 >= 0 && currentCell.ColumnNumber + 1 < boardSize)
             {
-                if (game.theGrid[currentCell.RowNumber - 2, currentCell.ColumnNumber + 1].openNeighbors < lowestMoves) { lowestMoves = game.theGrid[currentCell.RowNumber - 2, currentCell.ColumnNumber + 1].openNeighbors; }
+                if (game.theGrid[currentCell.RowNumber - 2, currentCell.ColumnNumber + 1].openNeighbors < lowestMoves) { lowestMoves = game.theGrid[currentCell.RowNumber - 2, currentCell.ColumnNumber + 1].openNeighbors; Console.Out.WriteLine("First attempt"); }
             }
             if (currentCell.RowNumber + 2 < boardSize && currentCell.ColumnNumber - 1 >= 0)
             {
@@ -59,6 +61,7 @@ namespace knightTour
             {
                 if (game.theGrid[currentCell.RowNumber + 1, currentCell.ColumnNumber + 2].openNeighbors < lowestMoves) { lowestMoves = game.theGrid[currentCell.RowNumber + 1, currentCell.ColumnNumber + 2].openNeighbors; }
             }
+            Console.Out.WriteLine("Last if");
             if (lowestMoves != 0)
             {
                 //Choose a option that has the lowest amount of moves possible
@@ -69,6 +72,7 @@ namespace knightTour
                         game.theGrid[currentCell.RowNumber - 2, currentCell.ColumnNumber - 1].visited = true;
                         attemptedMoves++;
                         knightTour(x - 2, y - 1);
+                        Console.Out.WriteLine("first real attempt");
                     }
                 }
                 else if (currentCell.RowNumber - 2 >= 0 && currentCell.ColumnNumber + 1 < boardSize)
@@ -132,6 +136,7 @@ namespace knightTour
                         game.theGrid[currentCell.RowNumber + 1, currentCell.ColumnNumber + 2].visited = true;
                         attemptedMoves++;
                         knightTour(x + 1, y + 2);
+                        Console.Out.WriteLine("last attempt");
                     }
                 }
             }

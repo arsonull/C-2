@@ -49,7 +49,8 @@ namespace MineSweeper
                 }
             }
         }
-
+        //This is not being used
+        /*
         public void checkNeighbors()
         {
             for (int r = 0; r < size; r++)
@@ -78,7 +79,7 @@ namespace MineSweeper
                     }
                 }
             }
-        }
+        }*/
         public void checkNeighbors2()
         {
             for (int r = 0; r < size; r++)
@@ -112,6 +113,29 @@ namespace MineSweeper
                     if (n == 8 && grid[r, c].Live) { n++; }
                     grid[r, c].liveNeighbours = n;
                 }
+            }
+        }
+        public void floodFill(int r, int c)
+        {
+            if (r < 0 || c < 0) { return; }
+            if (r >= size || c >= size) { return; }
+            if (!grid[r, c].Live && grid[r, c].liveNeighbours == 0 && !grid[r,c].visited)
+            {
+                grid[r, c].visited = true;
+                floodFill(r + 1, c);
+                floodFill(r - 1, c);
+                floodFill(r, c + 1);
+                floodFill(r, c - 1);
+                return;
+            }
+            else if (!grid[r, c].Live && !grid[r,c].visited)
+            {
+                grid[r, c].visited = true;
+                return;
+            }
+            else
+            {
+                return;
             }
         }
     }

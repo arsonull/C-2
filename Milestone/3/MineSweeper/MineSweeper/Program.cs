@@ -3,28 +3,31 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+ //Trying to comment my code more
 namespace MineSweeper
 {
     class Program
     {
         static void Main(string[] args)
         {
+            //This is the gameplay loop
             bool stay = true;
             do
             {
                 bool gameOver = false;
+                //instantiating a board with user input
                 Console.WriteLine("Please enter in the size of the board you want");
                 int size = int.Parse(Console.ReadLine());
                 Board game = new Board(size);
                 Console.WriteLine("What would you like the difficulty to be? 1-9");
                 int diff = int.Parse(Console.ReadLine());
-                int goal = (diff * 10) - size;
+                int goal = size * ((diff * 10)/100);
                 int cleared = 0;
+                //Setting up the board
                 game.createBombs(diff);
                 game.checkNeighbors2();
                 printBoard(game);
-
+                //The loop to continue playing a match until you actually lose
                 while (!gameOver)
                 {
                     Console.WriteLine("Please choose a row and then column");
@@ -43,7 +46,7 @@ namespace MineSweeper
                                 break;
                             }
                         }
-                        else if (cleared == goal - 1) //CHANGE THIS ITS ONLY TEMPORARY UNTIL VAR IS MADE
+                        else if (cleared == goal - 1)
                         {
                             gameOver = true;
                             Console.WriteLine("You win!!! Enter 1 to play again");
@@ -56,7 +59,8 @@ namespace MineSweeper
                         }
                         else
                         {
-                            game.grid[x, y].visited = true;
+                            game.floodFill(x, y);
+                            //game.grid[x, y].visited = true;
                             cleared++;
                             printBoard(game);
                         }
@@ -96,6 +100,11 @@ namespace MineSweeper
                     {
                         Console.Write("| " + board.grid[r, c].liveNeighbours + " |");
                     }
+                    //This was for testing recursion
+                    /*else if (board.grid[r,c].Live)
+                    {
+                        Console.Write("| " + "L" + " |");
+                    }*/
                     else
                     {
                        Console.Write("|███|");
