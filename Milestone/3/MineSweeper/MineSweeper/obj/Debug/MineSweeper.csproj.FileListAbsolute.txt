@@ -19,3 +19,10 @@ C:\Users\Spartancamo\Documents\GitHub\C-2\Milestone\3\MineSweeper\MineSweeper\ob
 C:\Users\Spartancamo\Documents\GitHub\C-2\Milestone\3\MineSweeper\MineSweeper\obj\Debug\MineSweeper.csproj.CoreCompileInputs.cache
 C:\Users\Spartancamo\Documents\GitHub\C-2\Milestone\3\MineSweeper\MineSweeper\obj\Debug\MineSweeper.exe
 C:\Users\Spartancamo\Documents\GitHub\C-2\Milestone\3\MineSweeper\MineSweeper\obj\Debug\MineSweeper.pdb
+C:\Users\spart\Documents\GitHub\C-2\Milestone\3\MineSweeper\MineSweeper\bin\Debug\MineSweeper.exe.config
+C:\Users\spart\Documents\GitHub\C-2\Milestone\3\MineSweeper\MineSweeper\bin\Debug\MineSweeper.exe
+C:\Users\spart\Documents\GitHub\C-2\Milestone\3\MineSweeper\MineSweeper\bin\Debug\MineSweeper.pdb
+C:\Users\spart\Documents\GitHub\C-2\Milestone\3\MineSweeper\MineSweeper\obj\Debug\MineSweeper.csprojAssemblyReference.cache
+C:\Users\spart\Documents\GitHub\C-2\Milestone\3\MineSweeper\MineSweeper\obj\Debug\MineSweeper.csproj.CoreCompileInputs.cache
+C:\Users\spart\Documents\GitHub\C-2\Milestone\3\MineSweeper\MineSweeper\obj\Debug\MineSweeper.exe
+C:\Users\spart\Documents\GitHub\C-2\Milestone\3\MineSweeper\MineSweeper\obj\Debug\MineSweeper.pdb
