@@ -70,6 +70,7 @@ namespace HeroMaker
 
             Hero hero = new Hero(nameBox.Text, powers, bDayPicker.Value, awareBox.Value,
                 controlPicker.Value, originBox.Text, trans, align, stat, descBox.Text);
+            HeroList hList = new HeroList(hero);
         }
     }
 }

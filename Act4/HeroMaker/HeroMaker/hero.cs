@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HeroMaker
 {
-    class Hero
+    public class Hero
     {
         private string name;
         private bool[] abilities;
@@ -32,6 +32,31 @@ namespace HeroMaker
             this.alignment = align;
             this.stats = stat;
             this.desc = descript;
+        }
+        public string getSummary()
+        {
+            string summ = "";
+            summ += "Name: " + this.name + ". ";
+            summ += "Powers: ";
+            if (this.abilities[0]) { summ += "Flying "; }
+            if (this.abilities[1]) { summ += "Super Strength "; }
+            if (this.abilities[2]) { summ += "Aura Sense "; }
+            if (this.abilities[3]) { summ += "Psychic Powers "; }
+            if (this.abilities[4]) { summ += "Elementalist "; }
+            if (this.abilities[5]) { summ += "Explosions "; }
+            if (this.abilities[6]) { summ += "Creation "; }
+            if (this.abilities[7]) { summ += "Super Intellect "; }
+            if (this.abilities[8]) { summ += "Teleportation "; }
+            if (this.abilities[9]) { summ += "Gravity "; }
+            if (this.abilities[10]) { summ += "Time "; }
+            if (this.abilities[11]) { summ += "Super Speed"; }
+            summ += ".";
+
+            return summ;
+        }
+        public string getName()
+        {
+            return name;
         }
     }
 }

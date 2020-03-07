@@ -8,3 +8,14 @@ C:\Users\spart\Documents\GitHub\C-2\Act4\HeroMaker\HeroMaker\obj\Debug\HeroMaker
 C:\Users\spart\Documents\GitHub\C-2\Act4\HeroMaker\HeroMaker\obj\Debug\HeroMaker.csproj.CoreCompileInputs.cache
 C:\Users\spart\Documents\GitHub\C-2\Act4\HeroMaker\HeroMaker\obj\Debug\HeroMaker.exe
 C:\Users\spart\Documents\GitHub\C-2\Act4\HeroMaker\HeroMaker\obj\Debug\HeroMaker.pdb
+C:\Users\Spartancamo\Documents\GitHub\C-2\Act4\HeroMaker\HeroMaker\bin\Debug\HeroMaker.exe.config
+C:\Users\Spartancamo\Documents\GitHub\C-2\Act4\HeroMaker\HeroMaker\bin\Debug\HeroMaker.exe
+C:\Users\Spartancamo\Documents\GitHub\C-2\Act4\HeroMaker\HeroMaker\bin\Debug\HeroMaker.pdb
+C:\Users\Spartancamo\Documents\GitHub\C-2\Act4\HeroMaker\HeroMaker\obj\Debug\HeroMaker.csprojAssemblyReference.cache
+C:\Users\Spartancamo\Documents\GitHub\C-2\Act4\HeroMaker\HeroMaker\obj\Debug\HeroMaker.Form1.resources
+C:\Users\Spartancamo\Documents\GitHub\C-2\Act4\HeroMaker\HeroMaker\obj\Debug\HeroMaker.Form2.resources
+C:\Users\Spartancamo\Documents\GitHub\C-2\Act4\HeroMaker\HeroMaker\obj\Debug\HeroMaker.Properties.Resources.resources
+C:\Users\Spartancamo\Documents\GitHub\C-2\Act4\HeroMaker\HeroMaker\obj\Debug\HeroMaker.csproj.GenerateResource.cache
+C:\Users\Spartancamo\Documents\GitHub\C-2\Act4\HeroMaker\HeroMaker\obj\Debug\HeroMaker.csproj.CoreCompileInputs.cache
+C:\Users\Spartancamo\Documents\GitHub\C-2\Act4\HeroMaker\HeroMaker\obj\Debug\HeroMaker.exe
+C:\Users\Spartancamo\Documents\GitHub\C-2\Act4\HeroMaker\HeroMaker\obj\Debug\HeroMaker.pdb
