@@ -1,0 +1,11 @@
+C:\Users\spart\Documents\GitHub\C-2\Milestone\4\MineSweeperGUI\MineSweeperGUI\bin\Debug\MineSweeperGUI.exe.config
+C:\Users\spart\Documents\GitHub\C-2\Milestone\4\MineSweeperGUI\MineSweeperGUI\bin\Debug\MineSweeperGUI.exe
+C:\Users\spart\Documents\GitHub\C-2\Milestone\4\MineSweeperGUI\MineSweeperGUI\bin\Debug\MineSweeperGUI.pdb
+C:\Users\spart\Documents\GitHub\C-2\Milestone\4\MineSweeperGUI\MineSweeperGUI\obj\Debug\MineSweeperGUI.csprojAssemblyReference.cache
+C:\Users\spart\Documents\GitHub\C-2\Milestone\4\MineSweeperGUI\MineSweeperGUI\obj\Debug\MineSweeperGUI.Form1.resources
+C:\Users\spart\Documents\GitHub\C-2\Milestone\4\MineSweeperGUI\MineSweeperGUI\obj\Debug\MineSweeperGUI.Properties.Resources.resources
+C:\Users\spart\Documents\GitHub\C-2\Milestone\4\MineSweeperGUI\MineSweeperGUI\obj\Debug\MineSweeperGUI.csproj.GenerateResource.cache
+C:\Users\spart\Documents\GitHub\C-2\Milestone\4\MineSweeperGUI\MineSweeperGUI\obj\Debug\MineSweeperGUI.csproj.CoreCompileInputs.cache
+C:\Users\spart\Documents\GitHub\C-2\Milestone\4\MineSweeperGUI\MineSweeperGUI\obj\Debug\MineSweeperGUI.exe
+C:\Users\spart\Documents\GitHub\C-2\Milestone\4\MineSweeperGUI\MineSweeperGUI\obj\Debug\MineSweeperGUI.pdb
+C:\Users\spart\Documents\GitHub\C-2\Milestone\4\MineSweeperGUI\MineSweeperGUI\obj\Debug\MineSweeperGUI.Form2.resources
