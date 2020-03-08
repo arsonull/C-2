@@ -28,11 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.heroBox = new System.Windows.Forms.ListBox();
+            this.heroListBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.label2 = new System.Windows.Forms.Label();
             this.summBox = new System.Windows.Forms.TextBox();
             this.search = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.heroListBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -46,11 +49,17 @@
             // 
             // heroBox
             // 
+            this.heroBox.DataSource = this.heroListBindingSource;
             this.heroBox.FormattingEnabled = true;
             this.heroBox.Location = new System.Drawing.Point(55, 82);
             this.heroBox.Name = "heroBox";
             this.heroBox.Size = new System.Drawing.Size(172, 147);
             this.heroBox.TabIndex = 1;
+            this.heroBox.SelectedIndexChanged += new System.EventHandler(this.heroBox_SelectedIndexChanged);
+            // 
+            // heroListBindingSource
+            // 
+            this.heroListBindingSource.DataSource = typeof(HeroMaker.HeroList);
             // 
             // label2
             // 
@@ -76,7 +85,7 @@
             this.search.Name = "search";
             this.search.Size = new System.Drawing.Size(75, 23);
             this.search.TabIndex = 4;
-            this.search.Text = "View";
+            this.search.Text = "New Hero";
             this.search.UseVisualStyleBackColor = true;
             this.search.Click += new System.EventHandler(this.search_Click);
             // 
@@ -92,6 +101,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Form2";
             this.Text = "Form2";
+            ((System.ComponentModel.ISupportInitialize)(this.heroListBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -104,5 +114,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox summBox;
         private System.Windows.Forms.Button search;
+        private System.Windows.Forms.BindingSource heroListBindingSource;
     }
 }

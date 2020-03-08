@@ -6,19 +6,10 @@ using System.Threading.Tasks;
 
 namespace HeroMaker
 {
-    public class HeroList
+    public static class HeroList
     {
-        private List<Hero> listOfHeroes { get; set; }
-
-        public HeroList()
-        { }
-        public HeroList(Hero h)
-        {
-            this.listOfHeroes.Add(h);
-        }
-        public void addHero(Hero h)
-        {
-            this.listOfHeroes.Add(h);
-        }
+        //creates a single public list that can be accessed everywhere, but there can only be one, so there is no "new" keyword possible
+        //outside of right here           -------v-------
+        public static List<Hero> listOfHeroes = new List<Hero>();
     }
 }
