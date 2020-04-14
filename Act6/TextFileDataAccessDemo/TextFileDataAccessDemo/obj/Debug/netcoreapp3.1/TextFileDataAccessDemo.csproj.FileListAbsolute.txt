@@ -1,0 +1,13 @@
+C:\Users\spart\Documents\GitHub\C-2\Act6\TextFileDataAccessDemo\TextFileDataAccessDemo\bin\Debug\netcoreapp3.1\TextFileDataAccessDemo.exe
+C:\Users\spart\Documents\GitHub\C-2\Act6\TextFileDataAccessDemo\TextFileDataAccessDemo\bin\Debug\netcoreapp3.1\TextFileDataAccessDemo.deps.json
+C:\Users\spart\Documents\GitHub\C-2\Act6\TextFileDataAccessDemo\TextFileDataAccessDemo\bin\Debug\netcoreapp3.1\TextFileDataAccessDemo.runtimeconfig.json
+C:\Users\spart\Documents\GitHub\C-2\Act6\TextFileDataAccessDemo\TextFileDataAccessDemo\bin\Debug\netcoreapp3.1\TextFileDataAccessDemo.runtimeconfig.dev.json
+C:\Users\spart\Documents\GitHub\C-2\Act6\TextFileDataAccessDemo\TextFileDataAccessDemo\bin\Debug\netcoreapp3.1\TextFileDataAccessDemo.dll
+C:\Users\spart\Documents\GitHub\C-2\Act6\TextFileDataAccessDemo\TextFileDataAccessDemo\bin\Debug\netcoreapp3.1\TextFileDataAccessDemo.pdb
+C:\Users\spart\Documents\GitHub\C-2\Act6\TextFileDataAccessDemo\TextFileDataAccessDemo\obj\Debug\netcoreapp3.1\TextFileDataAccessDemo.csprojAssemblyReference.cache
+C:\Users\spart\Documents\GitHub\C-2\Act6\TextFileDataAccessDemo\TextFileDataAccessDemo\obj\Debug\netcoreapp3.1\TextFileDataAccessDemo.csproj.CoreCompileInputs.cache
+C:\Users\spart\Documents\GitHub\C-2\Act6\TextFileDataAccessDemo\TextFileDataAccessDemo\obj\Debug\netcoreapp3.1\TextFileDataAccessDemo.AssemblyInfoInputs.cache
+C:\Users\spart\Documents\GitHub\C-2\Act6\TextFileDataAccessDemo\TextFileDataAccessDemo\obj\Debug\netcoreapp3.1\TextFileDataAccessDemo.AssemblyInfo.cs
+C:\Users\spart\Documents\GitHub\C-2\Act6\TextFileDataAccessDemo\TextFileDataAccessDemo\obj\Debug\netcoreapp3.1\TextFileDataAccessDemo.dll
+C:\Users\spart\Documents\GitHub\C-2\Act6\TextFileDataAccessDemo\TextFileDataAccessDemo\obj\Debug\netcoreapp3.1\TextFileDataAccessDemo.pdb
+C:\Users\spart\Documents\GitHub\C-2\Act6\TextFileDataAccessDemo\TextFileDataAccessDemo\obj\Debug\netcoreapp3.1\TextFileDataAccessDemo.genruntimeconfig.cache
