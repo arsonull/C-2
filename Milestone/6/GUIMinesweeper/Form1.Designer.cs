@@ -34,6 +34,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.playButt = new System.Windows.Forms.Button();
+            this.nameBox = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.sizeNum)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.diffBar)).BeginInit();
             this.SuspendLayout();
@@ -103,11 +105,30 @@
             this.playButt.UseVisualStyleBackColor = true;
             this.playButt.Click += new System.EventHandler(this.playButt_Click);
             // 
+            // nameBox
+            // 
+            this.nameBox.Location = new System.Drawing.Point(190, 119);
+            this.nameBox.Name = "nameBox";
+            this.nameBox.Size = new System.Drawing.Size(100, 20);
+            this.nameBox.TabIndex = 5;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(101, 122);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(38, 13);
+            this.label4.TabIndex = 6;
+            this.label4.Text = "Name:";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(359, 391);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.nameBox);
             this.Controls.Add(this.playButt);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -131,6 +152,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button playButt;
+        private System.Windows.Forms.TextBox nameBox;
+        private System.Windows.Forms.Label label4;
     }
 }
 

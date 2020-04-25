@@ -30,9 +30,14 @@ namespace GUIMinesweeper
             game.createBombs(diffBar.Value);
             game.checkNeighbors2();
             this.Hide();
-            Form2 f = new Form2(game, diffBar.Value);
+            Form2 f = new Form2(game, diffBar.Value, nameBox.Text);
             f.Closed += (s, args) => this.Close();
             f.Show();
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

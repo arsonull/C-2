@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -17,8 +18,9 @@ namespace GUIMinesweeper
         private int count;
         private int size;
         private Board game;
+        private string name;
 
-        public Form2(Board g, int diff)
+        public Form2(Board g, int diff, string na)
         {
             InitializeComponent();
             //setting the class Board for the form and other large scope variables, along with starting timer1
@@ -26,6 +28,7 @@ namespace GUIMinesweeper
             size = game.size;
             total = diff * size;
             count = 0;
+            name = na;
             timer1.Start();
 
             //constants for the dynamically created buttons to make the spaced out and look nice
@@ -107,6 +110,7 @@ namespace GUIMinesweeper
                             if (count == (size * size) - total)
                             {
                                 timer1.Stop();
+                                highScore();
                                 this.Hide();
                                 Form3 f = new Form3(true, Convert.ToString(time));
                                 f.Closed += (s, args) => this.Close();
@@ -197,6 +201,31 @@ namespace GUIMinesweeper
             time++;
             Label t = (Label)this.Controls["timeLabel"];
             t.Text = Convert.ToString(time);
+        }
+
+        private void highScore()
+        {
+            PlayerStats p = new PlayerStats(name, time, game.difficulty);
+            List<PlayerStats> players = new List<PlayerStats>();
+            List<String> lines = File.ReadAllLines(@"D:\Work\highscores.txt").ToList();
+            foreach (String line in lines)
+            {
+                string[] entries = line.Split(new String[] { "; :" }, StringSplitOptions.None);
+
+                PlayerStats pl = new PlayerStats(entries[1], Convert.ToInt32(entries[5]), Convert.ToInt32(entries[3]));
+
+                players.Add(pl);
+            }
+            players.Add(p);
+            Array playArray = players.ToArray();
+            Array.Sort(playArray);
+            List<String> outlines = new List<String>();
+
+            foreach (PlayerStats pls in playArray)
+            {
+                outlines.Add(pls.name + ": " + pls.score + "; Difficulty: " + pls.diff + "; Time: " + pls.time + ";");
+            }
+            File.WriteAllLines(@"D:\Work\highscores.txt", outlines);
         }
     }
 }

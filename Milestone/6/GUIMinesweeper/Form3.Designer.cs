@@ -32,6 +32,8 @@
             this.playButt = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.timeLabel = new System.Windows.Forms.Label();
+            this.scoreBox = new System.Windows.Forms.ListBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // resultLabel
@@ -71,11 +73,30 @@
             this.timeLabel.TabIndex = 3;
             this.timeLabel.Text = "label2";
             // 
+            // scoreBox
+            // 
+            this.scoreBox.FormattingEnabled = true;
+            this.scoreBox.Location = new System.Drawing.Point(302, 58);
+            this.scoreBox.Name = "scoreBox";
+            this.scoreBox.Size = new System.Drawing.Size(339, 329);
+            this.scoreBox.TabIndex = 4;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(436, 31);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(68, 13);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "High Scores:";
+            // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(350, 409);
+            this.ClientSize = new System.Drawing.Size(677, 409);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.scoreBox);
             this.Controls.Add(this.timeLabel);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.playButt);
@@ -93,5 +114,7 @@
         private System.Windows.Forms.Button playButt;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label timeLabel;
+        private System.Windows.Forms.ListBox scoreBox;
+        private System.Windows.Forms.Label label2;
     }
 }

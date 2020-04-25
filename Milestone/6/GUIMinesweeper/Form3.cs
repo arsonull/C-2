@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,6 +16,9 @@ namespace GUIMinesweeper
         public Form3(bool result, string time)
         {
             InitializeComponent();
+            string source = @"D:\Work\highscores.txt";
+            var lines = File.ReadAllLines(source).Take(5).ToList();
+            scoreBox.DataSource = lines;
             timeLabel.Text = time;
             //If you win
             if (result)
